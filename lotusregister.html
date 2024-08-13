@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    @import url("./css/style.css");
+    @import url("./login.css");
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-secondary shadow">
+    <div class="container">
+      <a class="navbar-brand naw h1 ms-5" href="./index.html"><b>LOTUS</b><span class="text-light"><b>365</b></span><br>
+        <P class="h6 text-light">Most trusted since 2015</P>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll d-flex justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="./lotuslogin.html">Lotus365 login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="./lotusapp.html">Lotus365 App</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="./lotusvip.html">Lotus365 Vip</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="./lotusregister.html">Lotus365 register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="./lotusindia.html">Lotus365 india</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="./lotusonline.html">Lotus365 online</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <i class="fa fa-sign-in text-primary h1" aria-hidden="true"></i>
+          <i class="fa fa-whatsapp naw ms-3 h1" aria-hidden="true"></i>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- -----------------nav end-------------------------- -->
+  <div class="container shadow mt-5">
+    <div class="row g-5">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">Your cart</span>
+          <span class="badge bg-primary rounded-pill">3</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Product name</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$12</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Second product</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$8</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Third item</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+            <div class="text-success">
+              <h6 class="my-0">Promo code</h6>
+              <small>EXAMPLECODE</small>
+            </div>
+            <span class="text-success">−$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Total (USD)</span>
+            <strong>$20</strong>
+          </li>
+        </ul>
+
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Promo code">
+            <button type="submit" class="btn btn-secondary">Redeem</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">GET IN TOUCH</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                <div class="invalid-feedback">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Address 2 <span
+                  class="text-body-secondary">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select" id="country" required="">
+                <option value="">Choose...</option>
+                <option>United States</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">State</label>
+              <select class="form-select" id="state" required="">
+                <option value="">Choose...</option>
+                <option>California</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required="">
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+
+
+
+          <hr class="my-4">
+
+
+
+          <button class=" btn btn-primary btn-sm text-center" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------------------end form---------------------------------- -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="naw text-center">Still not registered on Lotus 365?
+        </h1>
+        <p>Then probably you are missing out on many opportunities.
+          Register yourself and you will have access to a wide selection of casino games and betting options, all of
+          which
+          are intended to maximize your enjoyment and winning potential. You can immediately begin taking advantage of
+          the
+          platform's features. Lotus 365 has improved the protection of your financial and personal information and
+          provides an intuitive user interface that makes navigation simple. You can also participate in our interesting
+          promotions and perks as a registered member. You can also take advantage of our exciting promos and bonuses as
+          a
+          registered player, which can greatly increase your earnings and improve your overall gaming experience.
+          Additionally, you can be confident that you will always get help from our 24*7 customer service, which will
+          make
+          your experience seamless. By registering with Lotus 365, you can take advantage of an active group of
+          like-minded fans in addition to a safe and entertaining betting environment. Experience the finest in online
+          gaming and betting with Lotus 365 today.
+
+        </p>
+
+      </div>
+      <div class="col">
+        Column
+      </div>
+      <!-- --------------------------------------------------------------- -->
+      <div class="container mt-2 ">
+        <h1 class="naw text-center">Pre-Requisites For Lotus 365 Registration
+        </h1>
+        <p class="text-center">Please make sure you meet the following requirements for a simple and hassle-free Lotus
+          365 signup process.
+        </p>
+        <ul class="custom-timeline">
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel left">
+
+
+              <p><strong>Required Legal Age</strong> To register and take part in any betting or gaming activity on
+                Lotus 365, you must be at least eighteen years old. This complies with the laws to guarantee responsible
+                gaming.
+
+              </p>
+            </div>
+          </li>
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel right">
+              <h5>Verified Email Address
+              </h5>
+              <p>For communication and account verification, a working email address is necessary. Make sure the email
+                address you provided during registration is active.</p>
+
+
+            </div>
+          </li>
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel left">
+              <h5>Mobile Phone Number
+              </h5>
+              <p>For account security and verification, you must have a functional cell phone number. Important notices
+                and verification codes will be sent using this.
+
+              </p>
+            </div>
+          </li>
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel right">
+              <h5>Sports Betting</h5>
+              <p>Take benefit of a wide range of sports betting opportunities on football, basketball, tennis, cricket,
+                and
+                other sports. Users who are logged in have access to unique betting markets, live betting, and
+                comprehensive
+                data.</p>
+            </div>
+          </li>
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel left">
+              <h5>Internet Access
+              </h5>
+              <p>Make sure you have a reliable internet connection and finish the registration process to place bets or
+                play games.
+              </p>
+            </div>
+          </li>
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel right">
+              <h5>Verification Documents
+              </h5>
+              <p>You could be asked to present identification verification documentation to verify your identity and
+                age. You need to have a valid ID from the government (passport, driver's license, national ID card). A
+                proof of address (a bank account, utility bill, or other such paperwork).
+
+              </p>
+            </div>
+          </li>
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel left">
+              <h5>Mode of Payment
+
+              </h5>
+              <p>A working payment method is required to make deposits and withdrawals. Credit/debit cards, bank
+                transfers, and e-wallets are just a few of the payment methods that Lotus 365 accepts. Make sure you can
+                use at least one of these payment options.
+
+              </p>
+            </div>
+          </li>
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel right">
+              <h5>Awareness of the Terms and Conditions
+
+              </h5>
+              <p>Explore to understand the Privacy Policy, Terms and Conditions, and additional pertinent documents
+                furnished by Lotus 365. This guarantees that as a user, you are conscious of your rights and
+                obligations.
+
+              </p>
+            </div>
+          </li>
+          <li class="custom-timeline-item">
+            <div class="custom-timeline-panel left">
+              <h5>Compatibility with Devices
+
+              </h5>
+              <p>Make sure your laptop, tablet, smartphone, or desktop is compatible with the Lotus 365 platform before
+                using it. Current browsers on the majority of current devices will function properly.
+
+                You can be sure of a seamless and effective registration procedure by fulfilling these requirements.
+
+
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+      
+      <!-- ----------------------------------------timelineregisterend----------------------------------------------------------------- -->
+      <div class="container bg-light mt-1">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    How to register yourself on Lotus 365?
+
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body bg-light">
+                    <ul>
+                      <li>
+                        <a href="#" class="text-dark h4">Visit the Lotus 365 Website
+                        </a>
+                      </li>
+                      <i class="fa fa-long-arrow-down text-warning h1 text-center" aria-hidden="true"></i>
+                      <li><a href="#" class="text-dark h4">Fill Out The Registration Form
+                        </a></li>
+                      <i class="fa fa-long-arrow-down text-warning h1 text-center" aria-hidden="true"></i>
+                      <li><a href="#" class="text-dark h4">Agree To Terms & Conditions
+                        </a></li>
+                      <i class="fa fa-long-arrow-down text-warning h1 text-center" aria-hidden="true"></i>
+                      <li><a href="#" class="text-dark h4">Verify Your Email Address
+                        </a></li>
+                      <i class="fa fa-long-arrow-down text-warning h1 text-center" aria-hidden="true"></i>
+                      <li><a href="#" class="text-dark h4">Complete Your Profile
+
+                        </a>
+                      </li>
+                      <i class="fa fa-long-arrow-down text-warning h1 text-center" aria-hidden="true"></i>
+                      <li><a href="#" class="text-dark h4">Make Your First Deposit
+                        </a>
+                      </li>
+                      <i class="fa fa-long-arrow-down text-warning h1 text-center" aria-hidden="true">
+                      </i>
+                    </ul>
+                    <li><a href="#" class="text-dark h4">Start Betting
+
+                      </a>
+                    </li>
+                    <i class="fa fa-long-arrow-down text-warning h1 text-center" aria-hidden="true">
+                    </i>
+                    </ul>
+
+                    <div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+      </div>
+          
+        
+                  <!-- ------------------------------------------------------------------------------------------ -->
+                  <div class="container mt-2">
+                    <h2 class="text-center mb-4">Benefits of Registering on Lotus 365</h2>
+                
+                    <div class="row text-center">
+                        <div class="col-md-4 mb-4">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body">
+                                    <img src="https://via.placeholder.com/100" alt="User-Friendly Interface" class="mb-3">
+                                    <h5 class="card-title">User-Friendly Interface</h5>
+                                    <p class="card-text">Simple navigation for a seamless experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-4 mb-4">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body">
+                                    <img src="https://via.placeholder.com/100" alt="Diverse Gaming Options" class="mb-3">
+                                    <h5 class="card-title">Diverse Gaming Options</h5>
+                                    <p class="card-text">A variety of casino and betting games.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-4 mb-4">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body">
+                                    <img src="https://via.placeholder.com/100" alt="Secure Transactions" class="mb-3">
+                                    <h5 class="card-title">Secure Transactions</h5>
+                                    <p class="card-text">Modern security measures to protect your information.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-4 mb-4">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body">
+                                    <img src="https://via.placeholder.com/100" alt="24/7 Customer Support" class="mb-3">
+                                    <h5 class="card-title">24/7 Customer Support</h5>
+                                    <p class="card-text">Continuous assistance is available.</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-4 mb-4">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body">
+                                    <img src="https://via.placeholder.com/100" alt="Exciting Promotions" class="mb-3">
+                                    <h5 class="card-title">Exciting Promotions</h5>
+                                    <p class="card-text">Frequently occurring bonuses and promotions to improve your gaming experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- --------------------------------------------------------------------------------footer page------------------------------------------------- -->
+                  <div class="container shadow bg-secondary text-body footer mt-2 pt-5 wow fadeIn"
+                    data-wow-delay="0.1s">
+                    <div class="container py-5">
+                      <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                          <h5 class="naw mb-4">Address</h5>
+                          <p class="mb-2 text-light"><i class="fa fa-map me-3 naw"></i>160 Street, Noida Sector-63, UP
+                          </p>
+                          <p class="mb-2 text-light"><i class="fa fa-phone me-3 naw"></i>+012 345 67890</p>
+                          <p class="mb-2 text-light"><i class="fa fa-envelope me-3 naw"></i>info@example.com</p>
+                          <div class="d-flex pt-2">
+
+                            <a class="btn btn-square btn-outline-light btn-social" href="#"><i
+                                class="fa fa-twitter text-primary"></i></a>
+                            <a class="btn btn-square btn-outline-light btn-social" href="#"><i
+                                class="fa fa-facebook text-primary"></i></a>
+                            <a class="btn btn-square btn-outline-light btn-social" href="#"><i
+                                class="fa fa-youtube text-primary"></i></a>
+                            <a class="btn btn-square btn-outline-light btn-social" href="#"><i
+                                class="fa fa-linkedin text-primary"></i></a>
+
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5 class="naw mb-4">Quick Links</h5>
+                          <ul>
+                            <li> <a class="btn btn-link text-light" href="">Lotus365 login</a></li>
+                            <li> <a class="btn btn-link text-light" href="">Lotus365 App</a></li>
+                            <li><a class="btn btn-link text-light" href="">Lotus365 Vip</a></li>
+
+                            <li> <a class="btn btn-link text-light" href="">Support</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5 class="naw mb-4">Project Gallery</h5>
+                          <div class="row g-2">
+                            <div class="col-4">
+                              <img class="img-fluid rounded" src="./images/img3.jpg" alt="fgfhg">
+                            </div>
+                            <div class="col-4">
+                              <img class="img-fluid rounded" src="./images/img3.jpg" alt="dfg">
+                            </div>
+                            <div class="col-4">
+                              <img class="img-fluid rounded" src="./images/img3.jpg" alt="dfg">
+                            </div>
+                            <div class="col-4">
+                              <img class="img-fluid rounded" src="./images/img3.jpg" alt="dgf">
+                            </div>
+                            <div class="col-4">
+                              <img class="img-fluid rounded" src="./images/img3.jpg" alt="dsf">
+                            </div>
+                            <div class="col-4">
+                              <img class="img-fluid rounded" src="./images/img3.jpg" alt="sdg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                          <h5 class="naw mb-4">Newsletter</h5>
+                          <p class="text-light">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                          <div class="position-relative mx-auto">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
+                              placeholder="Your email">
+                            <button type="button"
+                              class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="copyright">
+                        <div class="row">
+                          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            © <a class="text-light" href="#">Our Site Name</a>,<span class="naw h3">Lotus<span
+                                class="text-light">365.</span></span>
+                          </div>
+                          <div class="col-md-6 text-center text-md-end naw">
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a class="text-light" href="#">SHAKTI KUMARI</a>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+
+</html>
